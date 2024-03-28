@@ -1,12 +1,12 @@
-import { NextSeo } from "next-seo";
-import ProjectCard from "@/components/ProjectCard";
-import { PROJECTS_CARD } from "@/data/projects";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
+// import { NextSeo } from "next-seo";
+// import ProjectCard from "@/components/ProjectCard";
+// import { PROJECTS_CARD } from "@/data/projects";
+// import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function Projects() {
   return (
     <>
-      <NextSeo
+      {/* <NextSeo
         title="Projects by Amit Chauhan - React and Frontend Developer Portfolio"
         description="Explore a collection of projects by Amit Chauhan, a seasoned React and Frontend Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
         canonical={`${siteMetadata.siteUrl}/projects`}
@@ -51,22 +51,21 @@ export default function Projects() {
           </div>
           <div className="mx-auto mt-16 max-w-5xl text-center md:mt-28">
             <span className="text-xl font-bold md:text-2xl">
-              I am currently building new projects and learning backend
-              development to expand my skill set beyond frontend.
+              We're currently building new projects 
             </span>
             <p className="mt-10 text-base md:text-xl">
-              Visit my github to see some of the latest projects{" "}
+              Visit our site to see some of the latest projects{" "}
               <a
                 href={`${siteMetadata.github}?tab=repositories`}
                 target="_blank"
                 className="font-medium text-tera-500 underline underline-offset-2 hover:text-teal-600 dark:text-teal-400"
               >
-                Github
+                Gitasha
               </a>
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

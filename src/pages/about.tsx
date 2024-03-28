@@ -1,18 +1,18 @@
-import Image from "next/image";
-import { NextSeo } from "next-seo";
-import FadeRight from "@/animation/FadeRight";
-import FadeUp from "@/animation/FadeUp";
-import { AnimatePresence } from "framer-motion";
-import ShowCaseList from "@/components/ShowCaseList";
-import { EXPERIENCE } from "@/data/experience";
-import { EDUCATION } from "@/data/education";
-import heroProfileImg from "@/public/images/heroProfile.png";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
+// import Image from "next/image";
+// import { NextSeo } from "next-seo";
+// import FadeRight from "@/animation/FadeRight";
+// import FadeUp from "@/animation/FadeUp";
+// import { AnimatePresence } from "framer-motion";
+// import ShowCaseList from "@/components/ShowCaseList";
+// import { EXPERIENCE } from "@/data/experience";
+// import { EDUCATION } from "@/data/education";
+// import heroProfileImg from "@/public/images/heroProfile.png";
+// import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function About() {
   return (
     <>
-      <NextSeo
+      {/* <NextSeo
         title="About Amit Chauhan | React and Frontend Developer"
         description="Learn more about Amit Chauhan, a dedicated React and Frontend Developer with 2 years of experience. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
         canonical={`${siteMetadata.siteUrl}/about`}
@@ -98,7 +98,7 @@ export default function About() {
         </div>
       </div>
       <ShowCaseList title="Experience" details={EXPERIENCE} />
-      <ShowCaseList title="Education" details={EDUCATION} />
+      <ShowCaseList title="Education" details={EDUCATION} /> */}
     </>
   );
 }
